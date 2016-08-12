@@ -1,0 +1,13 @@
+{
+  "name": "TomatoTime",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^15.0.2-alpha.3",
+    "react-native": "^1000.0.0",
+    "ubuntu-module-sound": "git+https://github.com/justincan/ubuntu-module-sound.git"
+  }
+}

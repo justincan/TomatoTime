@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=TomatoTime
+Comment=Description of TomatoTime
+Exec=./TomatoTime --local=./share/js/index.js --plugins-path=./plugins
+Icon=share/icons/TomatoTime.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

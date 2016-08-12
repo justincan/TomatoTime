@@ -1,0 +1,22 @@
+name: tomato-time
+version: 0.0.1
+summary: Your ReactNative Ubuntu Application
+description: This is a description of TomatoTime
+confinement: devmode
+apps:
+  TomatoTime:
+    command: bin/TomatoTime --local=./share/js/index.js --plugins-path=./plugins
+
+parts:
+  nodejs:
+    plugin: nodejs
+
+  react-native-app:
+    plugin: copy
+    source: ..
+    files:
+      bin/TomatoTime: bin/TomatoTime
+      bin/ubuntu-server.js: bin/ubuntu-server.js
+      share: share
+      plugins: plugins
+
